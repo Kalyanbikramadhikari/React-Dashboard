@@ -1,0 +1,82 @@
+.featured{
+    flex: 3;
+    box-shadow: 2px 2px 4px 2px rgba(88, 86, 86, 0.96);
+    -webkit-box-shadow: 2px 2px 4px 2px rgba(182, 180, 180, 0.96);
+    -moz-box-shadow: 4px 5px 4px 2px rgba(245,245,245,0.96);
+    border-radius: 3px;
+    padding: 10px;
+
+    .top{
+        color: gray;
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .bottom{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+
+        .featured-chart{
+            height: 150px;
+            width: 150px;
+        }
+
+        .title{
+            color: grey;
+        }
+        .amount{
+            font-size: 25px;
+            font-weight: 200;
+        }
+        .desc{
+            color: grey;
+            font-size: 14px;
+        }
+        .summary{
+            width: 100%;// this is needed here as in parent we have justify content to center
+            // background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+
+        }
+
+        .item{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+        .item-title{
+            color: grey;
+        }
+        .item-result{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+
+            &.positive{
+                color: green;
+            }
+            &.negative{
+                color: red;
+            }
+
+            .down{
+                font-size: 18px;
+            }
+        }
+
+    }
+
+
+
+
+}
