@@ -18,8 +18,8 @@
 
 
         .list-container{
-            display: flex;
             margin: 20px;
+            padding: 10px;
             // padding: 20px;   
             box-shadow: 2px 2px 4px 2px rgba(88, 86, 86, 0.96);
             -webkit-box-shadow: 2px 2px 4px 2px rgba(182, 180, 180, 0.96);
@@ -28,6 +28,7 @@
             .list-title{
                 color: grey;
                 font-weight: 500;
+                margin-bottom: 10px;
                 
 
             }

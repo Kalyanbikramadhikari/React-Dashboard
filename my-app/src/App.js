@@ -18,9 +18,9 @@ function App() {
         <Route path= "/login" element = {<Login/>}/>
         <Route path= "/users/new" element = {<Neww/>}/>
         <Route path= "/users/:id" element = {<Single/>}/>
-        <Route path= "/users/list" element = {<List/>}/>
+        <Route path= "/users" element = {<List/>}/>
 
-        </Routes>
+        </Routes> 
         
      
       </div>
