@@ -1,0 +1,112 @@
+.single{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    
+    .single-container{
+        flex: 6;
+
+        .top{
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+             
+
+            .left{
+                flex: 1;
+                border-radius: 10px;
+                box-shadow: 2px 2px 4px 2px rgba(88, 86, 86, 0.96);
+                -webkit-box-shadow: 2px 2px 4px 2px rgba(182, 180, 180, 0.96);
+                -moz-box-shadow: 4px 5px 4px 2px rgba(245,245,245,0.96);
+                position: relative;
+                .edit-button{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 5px;
+                    font-size: 12px;
+                    color: #4451f8;
+                    background-color: #e0e0f3;
+                    cursor: pointer;
+                    margin: 5px;
+                    border-radius: 5px;
+                }
+                .title{
+                    padding: 5px;
+                    color: grey;
+                    font-size: 20px;
+                }
+                .item{
+                    display: flex;
+                    gap: 20px;
+                    padding: 10px;
+                    // background-color: aqua;
+
+                    .item-img{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: vcover;
+                        display: flex;
+                        // justify-content: center;
+                        align-self: center;
+                        
+
+                    }
+                    .details{
+
+
+                        .item-title{
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+
+
+                        .item-detail{
+                            margin-bottom: 10px;
+                            font-size: 14px;
+
+                            .item-key{
+                                font-weight: bold;
+                                color: gray;
+                                margin-right: 5px;
+                            }
+                            .item-value{
+                                
+
+                            }
+                        }
+                    }
+                }
+            }
+            .right{
+                flex: 2;
+                border-radius: 10px;
+
+                box-shadow: 2px 2px 4px 2px rgba(88, 86, 86, 0.96);
+    -webkit-box-shadow: 2px 2px 4px 2px rgba(182, 180, 180, 0.96);
+    -moz-box-shadow: 4px 5px 4px 2px rgba(245,245,245,0.96);
+            }
+        }
+
+    
+        .bottom{
+            margin: 20px;
+
+            .user-products{
+                padding: 10px;
+                color: gray;
+                font-size: 20px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                box-shadow: 2px 2px 4px 2px rgba(88, 86, 86, 0.96);
+                -webkit-box-shadow: 2px 2px 4px 2px rgba(182, 180, 180, 0.96);
+                -moz-box-shadow: 4px 5px 4px 2px rgba(245,245,245,0.96);
+
+
+            }
+        }
+    }
+
+
+}
