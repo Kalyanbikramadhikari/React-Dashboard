@@ -1,0 +1,99 @@
+.neww{
+
+    display: flex;
+    
+
+    .new-container{
+        flex: 6;
+        
+        .top{
+            color: grey;
+            margin: 20px;
+            padding: 10px;
+            box-shadow: 2px 2px 4px 2px rgba(88, 86, 86, 0.96);
+            -webkit-box-shadow: 2px 2px 4px 2px rgba(182, 180, 180, 0.96);
+            -moz-box-shadow: 4px 5px 4px 2px rgba(245,245,245,0.96);
+
+
+
+        }
+        .bottom{
+            margin: 20px;
+            padding: 10px;
+            display: flex;
+            box-shadow: 2px 2px 4px 2px rgba(88, 86, 86, 0.96);
+            -webkit-box-shadow: 2px 2px 4px 2px rgba(182, 180, 180, 0.96);
+            -moz-box-shadow: 4px 5px 4px 2px rgba(245,245,245,0.96);
+            gap: 20px;
+
+            .left{
+                flex: 2;
+                display: flex;
+                // background-color: aqua;
+                align-items: center;
+                justify-content: center;
+
+                img{
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    
+                }
+            }
+            .right{
+                flex:2;
+                // background-color: aqua;
+
+                form{
+                    display: flex;
+                    flex-wrap: wrap;
+                    // it means after flex only content that fits in a row will stay in a row
+                    gap: 20px;
+
+                    .form-input{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        width: 40%;
+                         
+                        
+                        &.image{
+                            display: flex;
+                            // align-items: center;
+                            justify-content: center;
+                        }
+                       
+                        
+                        label{
+                            gap: 10px;
+                            display: flex;
+                            align-items: center;
+                        }
+
+                        input{
+                            border: none;
+                            padding: 5px;
+                            border-bottom: 1px solid gray;
+                            outline: none;
+
+                        }
+                    }
+                    button{
+                        width: 150px;
+                        padding: 10px;
+                        border: none;
+                        background-color: teal;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+            }
+
+        }
+
+    }
+}

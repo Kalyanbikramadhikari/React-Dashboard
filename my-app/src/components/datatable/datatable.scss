@@ -1,5 +1,37 @@
 .datatable{
+            box-shadow: 2px 2px 4px 2px rgba(88, 86, 86, 0.96);
+            -webkit-box-shadow: 2px 2px 4px 2px rgba(182, 180, 180, 0.96);
+            -moz-box-shadow: 4px 5px 4px 2px rgba(245,245,245,0.96);
+            margin: 20px;
 
+    .data-table-title{
+        width: 100%;
+        font-size: 20px;
+        color: grey;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .add{
+            margin: 10px;
+            
+            margin-right: 20px;
+            padding-right: 20px;
+            background-color: teal;
+            margin-left: 20px;
+            color: white;
+            border-radius: 5px;
+
+            span{
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+            }
+
+           
+        }
+    }
 
     .cell-with-img{
         display: flex;
