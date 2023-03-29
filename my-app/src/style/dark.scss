@@ -1,4 +1,60 @@
 .dark{
-    // background-color:#131313;
-    // color: rgb(156,156,156);
-}
+    background-color:#131313;
+    color: rgb(156,156,156);
+    
+    .table{
+        background-color:#131313;
+
+        .table-cell{
+            color: gray;
+        }
+    }
+    .navbar{
+        color: #999;
+        border-color: #333;
+
+      
+        .search2{
+            background-color: #131313;
+        }
+        
+    }
+
+    .sidebar{
+        // background-color: #131313;
+        .logo{
+            color: gray;
+        }
+        hr{
+            border-color: #333;
+        }
+
+        ul{
+            li{
+                &:hover{
+                    background-color: #333;
+                }
+
+                .icons{
+                    color: #999;
+                }
+            }
+        }
+    }
+
+
+
+
+    .datatable{
+        .datagrid{
+            color: gray;
+
+            
+        }
+    }
+
+    input{
+        background-color: transparent;
+        color:white;
+    }
+} 

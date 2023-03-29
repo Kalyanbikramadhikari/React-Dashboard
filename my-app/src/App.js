@@ -10,10 +10,12 @@ import { productInputs, userInputs } from './formSource'
 import "./style/dark.scss"
 
 function App() {
+
+
   return (
     
     <Router>
-      <div className="App dark">
+      <div className="App ">
       
       <Routes>
           

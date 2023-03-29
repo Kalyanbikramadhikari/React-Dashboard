@@ -71,7 +71,7 @@ const DataTable = () => {
 
             <Link className='add' to="/users/new" style={{textDecoration:"none"}}> <span>Add User</span></Link>
         </div>
-         <DataGrid 
+         <DataGrid className='datagrid'
         rows={userRows}
         columns={userColumns.concat(actionColumn)}
         pageSize={9}
